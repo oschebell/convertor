@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << "."
+
+require 'converter'
+
+interface = CLI.new
+interface.run
